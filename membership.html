@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="membership.css">
+  <link rel="stylesheet" href="style.css">
+  <title>bodyCraft - Contact Us</title>
+</head>
+
+<body>
+  <!-- ********************* Navbar Started ********************** -->
+  <div class="top-nav">
+    <div>
+      <a href="index.html" class="logo">
+        <span class="purple">Body</span>Craft
+      </a>
+    </div>
+
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+
+    <ul class="menu">
+      <li><a href="index.html" class="nav-links">Home</a></li>
+      <li><a href="about.html" class="nav-links">About us</a></li>
+      <li><a href="membership.html" class="nav-links">Membership</a></li>
+      <li><a href="contact.html" class="nav-links">Contact</a></li>
+    </ul>
+
+  </div>
+
+  <!-- ********************* Navbar Ended ********************** -->
+
+
+
+  <!-- Contact Started -->
+  <section class="main">
+    <div class="membership-div">
+      <h1 class="membership-heading inter">
+        Join <span class="purple">Our</span> Fitness Family<span class="purple">.</span>
+      </h1>
+      <p class="membership-p poppins">
+        Discover a community that supports your fitness journey. Whether you're a beginner or a seasoned athlete, our
+        memberships are designed to help you achieve your goals with access to state-of-the-art equipment, expert
+        trainers, and personalized workout plans.
+      </p>
+
+      <div class="membership-benefits">
+        <h2 class="benefits-heading poppins">Membership Benefits:</h2>
+        <ul class="benefits-list poppins">
+          <li>Unlimited access to all gym facilities</li>
+          <li>Personalized training programs</li>
+          <li>Free group fitness classes</li>
+          <li>Discounts on supplements and merchandise</li>
+          <li>Access to exclusive member-only events</li>
+          <li>24/7 support from our expert trainers</li>
+        </ul>
+      </div>
+
+      <div class="membership-contact">
+        <h2 class="contact-heading poppins">Ready to Join?</h2>
+        <p class="contact-p">
+          Contact us today to find the membership plan that fits your lifestyle. Start your journey towards a healthier
+          and stronger you!
+        </p>
+        <a href="contact.html" class="membership-link">
+          <div class="contact-info">
+            <ion-icon name="mail-outline" class="contact-icons"></ion-icon>
+            <p class="email-text poppins">membership@bodycraft.com</p>
+          </div>
+        </a>
+        <div class="contact-info">
+          <ion-icon name="call-outline" class="contact-icons"></ion-icon>
+          <p class="email-text poppins">+92 987-654-3210</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <!-- Name -->
+      <label for="name" class="form-label">Full Name</label>
+      <input id="name" type="text" class="form-input" placeholder="Enter your full name" />
+
+      <!-- Email -->
+      <label for="email" class="form-label">Email</label>
+      <input id="email" type="email" class="form-input" placeholder="Enter your email" />
+
+      <!-- Phone Number -->
+      <label for="phone" class="form-label">Phone Number</label>
+      <input id="phone" type="tel" class="form-input" placeholder="Enter your phone number" />
+
+      <!-- Age -->
+      <label for="age" class="form-label">Age</label>
+      <input id="age" type="number" class="form-input" placeholder="Enter your age" />
+
+      <!-- Gender -->
+      <label class="form-label">Gender</label>
+      <div class="radio-group">
+        <label><input type="radio" name="gender" value="male" /> Male</label>
+        <label><input type="radio" name="gender" value="female" /> Female</label>
+        <label><input type="radio" name="gender" value="other" /> Other</label>
+      </div>
+
+      <!-- Membership Type -->
+      <label class="form-label">Membership Type</label>
+      <div class="radio-group">
+        <label><input type="radio" name="membership" value="basic" /> Basic</label>
+        <label><input type="radio" name="membership" value="premium" /> Premium</label>
+        <label><input type="radio" name="membership" value="vip" /> VIP</label>
+      </div>
+
+      <!-- Preferred Workout Time -->
+      <label class="form-label">Preferred Workout Time</label>
+      <select class="form-input" name="workout-time">
+        <option value="morning">Morning (6 AM - 9 AM)</option>
+        <option value="afternoon">Afternoon (12 PM - 3 PM)</option>
+        <option value="evening">Evening (5 PM - 8 PM)</option>
+        <option value="night">Night (8 PM - 10 PM)</option>
+      </select>
+
+      <!-- Fitness Goals -->
+      <label class="form-label">Fitness Goals</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="goal" value="weight_loss" /> Weight Loss</label>
+        <label><input type="checkbox" name="goal" value="muscle_gain" /> Muscle Gain</label>
+        <label><input type="checkbox" name="goal" value="general_fitness" /> General Fitness</label>
+        <label><input type="checkbox" name="goal" value="endurance" /> Endurance</label>
+        <label><input type="checkbox" name="goal" value="flexibility" /> Flexibility</label>
+      </div>
+
+      <!-- Emergency Contact -->
+      <label for="emergency-contact" class="form-label">Emergency Contact Name</label>
+      <input id="emergency-contact" type="text" class="form-input" placeholder="Enter emergency contact name" />
+
+      <label for="emergency-phone" class="form-label">Emergency Contact Number</label>
+      <input id="emergency-phone" type="tel" class="form-input" placeholder="Enter emergency contact number" />
+
+      <!-- Additional Comments -->
+      <label for="comments" class="form-label">Additional Comments or Medical Conditions</label>
+      <textarea id="comments" class="form-textarea"
+        placeholder="Mention any medical conditions or special requests"></textarea>
+
+      <!-- Submit Button -->
+      <button class="form-button">Submit</button>
+    </div>
+
+  </section>
+  <!-- Contact Ended -->
+
+
+
+
+
+  <!-- ********************* Footer Section Started ********************** -->
+
+  <footer class="footer">
+    <p>Manahil Noor @ all rights reserved</p>
+  </footer>
+
+  <!-- ********************* Footer Section Started ********************** -->
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>
